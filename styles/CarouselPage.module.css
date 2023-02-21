@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6rem;
+    margin-top: 10%;
+    /* min-height: 25vh; */
+    background-color: var(--light-purple);
+    background-size: cover;
+    color: var(--white);
+    font-family: monospace;
+}
+
+.arrows {
+    cursor: pointer;
+
+}
+
+.homeButton > a{
+    color: var(--white);
+    padding: 1em 2em;
+    background-color: var(--dark-purple);
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homeButton> a:hover{
+    background-color: var(--orange);
+}
+
+.arrowContainer{
+    gap: 770px;
+    display: flex;
+}
+
+.desc{
+    color: var(--dark-orange);
+}
+

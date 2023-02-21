@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 9rem;
+    margin-top: 20%;
+    background-color: var(--light-purple);
+    background-size: cover;
+    color: var(--white);
+    font-family: monospace;
+    justify-content: space-evenly;
+}
+
+
+.homeButton > a{
+    color: var(--white);
+    padding: 1em 2em;
+    background-color: var(--dark-purple);
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homeButton> a:hover{
+    background-color: var(--orange);
+}
+
+.title{
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.desc{
+    color: var(--dark-orange);
+}
+
+.number {
+    background-color: var(--yellow);
+    padding: 10px 20px;
+}
+
